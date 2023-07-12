@@ -29,6 +29,6 @@ class Exercise2:
         else: 
             return "Odd", val
 
-val = int(input("Enter a number to check if its odd or Even"))
+val = int(input("provide a number to check if its odd or Even"))
 msg, value = Exercise2.verify_Even(val)
 print(msg, val)
