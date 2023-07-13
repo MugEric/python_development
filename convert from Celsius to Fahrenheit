@@ -1,0 +1,30 @@
+# # Program to convert celsius to Fahrenheit
+
+# celsius = float(input("Enter the temperature in celsius "))
+# fahrenheit =(celsius *9/5)+32
+
+# print(celsius ,"degrees Celsius is equal to",fahrenheit ,"degrees Fahrenheit.")
+
+# # With function
+
+# def convert_Celsius_to_Fahrenheit(celsius):
+#      fahrenheit =(celsius * 9/5) + 32
+#      return fahrenheit
+
+# celsius =float(input("Enter the temperature in celsius: "))
+# fahrenheit = convert_Celsius_to_Fahrenheit(celsius)
+
+# print(celsius ,"degrees Celsius is equal to",fahrenheit, "degrees Fahrenheit .")
+
+# With class
+
+class conversion:
+    def convert_Celsius_to_Fahrenheit(celsius):
+         fahrenheit = (celsius * 9/5) + 32
+         return fahrenheit
+celsius = float(input("Enter the temperature in celsius: "))   
+# fahrenheit = conversion.convert_Celsius_to_Fahrenheit(celsius)
+# print(celsius ,"degrees Celsius is equal to",fahrenheit, "degrees Fahrenheit .")
+conversion.convert_Celsius_to_Fahrenheit(celsius)
+
+
