@@ -1,29 +1,29 @@
 
-# # Program to check for divisibility of a number.
+# Program to check for divisibility of a number.
 
-# # User input
-# number = int(input("Enter a number: "))
-# divisor = int(input("Enter a divisor: "))
+# User input
+number = int(input("Enter a number: "))
+divisor = int(input("Enter a divisor: "))
 
-# # Check divisibility
-# if number % divisor == 0:
-#     print(number," is divisible by ", divisor ,".")
-# else:
-#     print(number," is not divisible by ", divisor ,".")
+# Check divisibility
+if number % divisor == 0:
+    print(number," is divisible by ", divisor ,".")
+else:
+    print(number," is not divisible by ", divisor ,".")
 
 
 # With function
 
-# def check_divisibility(number,divisor):
-#     if number % divisor == 0:
-#         print(number,"is divisible by ",divisor,".")
-#     else:
-#         print(number,"is not divisible by",divisor,".")
+def check_divisibility(number,divisor):
+    if number % divisor == 0:
+        print(number,"is divisible by ",divisor,".")
+    else:
+        print(number,"is not divisible by",divisor,".")
 
-# number = int(input("Enter a number: "))
-# divisor = int(input("Enter a divisor: "))
+number = int(input("Enter a number: "))
+divisor = int(input("Enter a divisor: "))
 
-# check_divisibility(number,divisor)
+check_divisibility(number,divisor)
  
 
 # With Class
